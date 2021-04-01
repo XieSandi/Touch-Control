@@ -1,0 +1,57 @@
+{
+	"name": "sanaPad",
+	"plugin-id": "Sprite",
+	"sid": 2780893525997698,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 246,
+						"height": 244,
+						"originX": 0.5,
+						"originY": 0.495902,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5089320,
+						"collisionPoly": {
+							"points": [
+								0.154472,
+								0.147541,
+								0.5,
+								0.00409836,
+								0.845528,
+								0.147541,
+								0.995935,
+								0.495902,
+								0.845528,
+								0.844262,
+								0.5,
+								0.995902,
+								0.154472,
+								0.844262,
+								0.00406504,
+								0.495902
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 3483019969020888,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

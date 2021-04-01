@@ -1,0 +1,16 @@
+{
+	"name": "touchTrack",
+	"plugin-id": "Text",
+	"sid": 8911528055770513,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "id",
+			"type": "number",
+			"desc": "",
+			"sid": 2904207844138242
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
