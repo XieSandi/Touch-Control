@@ -31,14 +31,6 @@
 			"bundled": false
 		},
 		{
-			"type": "plugin",
-			"id": "Function",
-			"name": "Function",
-			"author": "Scirra",
-			"version": "r241",
-			"bundled": false
-		},
-		{
 			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Drag & Drop",
@@ -53,6 +45,14 @@
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
 		}
 	],
 	"uniqueId": "2a85ezly76mep",
@@ -60,8 +60,8 @@
 		"items": [
 			"Touch",
 			"touchTrack",
-			"Function",
-			"player"
+			"player",
+			"Sprite"
 		],
 		"subfolders": [
 			{
@@ -117,7 +117,8 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},

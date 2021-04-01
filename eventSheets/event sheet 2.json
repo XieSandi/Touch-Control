@@ -1,0 +1,150 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 283218684548576,
+					"parameters": {
+						"object": "Sprite"
+					}
+				},
+				{
+					"id": "is-between-angles",
+					"objectClass": "player",
+					"sid": 847779082801274,
+					"parameters": {
+						"first-angle": "-45",
+						"second-angle": "45"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "player",
+					"sid": 967074728097276,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "player.X+100",
+						"y": "player.Y",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 598850408071921
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 554083803290915,
+					"parameters": {
+						"object": "Sprite"
+					}
+				},
+				{
+					"id": "is-between-angles",
+					"objectClass": "player",
+					"sid": 571028812142786,
+					"parameters": {
+						"first-angle": "135",
+						"second-angle": "-135"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "player",
+					"sid": 462027013129322,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "player.X-100",
+						"y": "player.Y",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 438267987817378
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 819250486987034,
+					"parameters": {
+						"object": "Sprite"
+					}
+				},
+				{
+					"id": "is-between-angles",
+					"objectClass": "player",
+					"sid": 221303928567645,
+					"parameters": {
+						"first-angle": "45",
+						"second-angle": "135"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "player",
+					"sid": 763350815700748,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "player.X",
+						"y": "player.Y+100",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 818313636162848
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 194844087386647,
+					"parameters": {
+						"object": "Sprite"
+					}
+				},
+				{
+					"id": "is-between-angles",
+					"objectClass": "player",
+					"sid": 846795580713011,
+					"parameters": {
+						"first-angle": "-135",
+						"second-angle": "-45"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "player",
+					"sid": 516732699032699,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "player.X",
+						"y": "player.Y-100",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 299413704427159
+		}
+	],
+	"sid": 492538883539214
+}
